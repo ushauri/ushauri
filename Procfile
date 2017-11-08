@@ -1,1 +1,1 @@
-web: gunicorn --pythonpath ushauri ushauri.wsgi --log-file -
+web: gunicorn --pythonpath ushauri ushauri.deploy --log-file -
