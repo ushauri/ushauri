@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath ushauri ushauri.wsgi --log-file -
