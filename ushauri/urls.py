@@ -20,7 +20,7 @@ from . import views
 
 
 urlpatterns = [
-    url(r"^account/", include("account.urls")),
+    url(r'^$', views.landing),
     url(r'^admin/', admin.site.urls),
-    url(r'^$', views.landing)
+    url(r"^accounts/", include("account.urls")),
 ]
